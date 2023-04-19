@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divination</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="calc.js">
+    <link rel="stylesheet" href="https://real-love-calculator.p.rapidapi.com/">
+</head>
+<body>
+    <div>
+       <!-- title -->
+        <h1> Love Calculator </h1>
+        <div class = "calculator">
+            <div class ="container">
+
+                <div class="forms">
+                    <form id="LCform">
+                        <p>
+                            <span class = "FN">
+                                <label for="firstName">First Name:</label>
+                                <input id="firstName" name="firstName" type="text" required>
+                            </span>
+                            <span class ="SN">
+                                <label for="secondName">Second Name:</label>
+                                <input id="secondName" name="secondName" type="text" required>
+                            </span>
+                            <button id="calculateButton" type="submit">Calculate</button>
+                        </p>
+                    </form>
+                </div>
+
+                <div id="result">
+                    <p id="result-paragraph"></p>
+                    <p id="advice-paragraph"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!-- <div class="bkg">
+            <a href="index.html">
+            <img id="hearts" src="resources/imgs/heartpink2.png" width="10%">
+            </a>
+        </div> -->
+        <div>
+              <img id="img1"src="resources/imgs/heartred.png"width="60%">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
