@@ -7,8 +7,8 @@ const loveButton = document.getElementById("calculateButton");
 const lcForm = document.getElementById("LCform")
 
 const goodAdvice = ["Work on your communication", "Learn how to compromise with your partner", 
-"Seek couple counseling", "ggs"];
-const congrats = ["Congrats, you're in a healthy relationship!", "I'm happy for you", "Must be nice"];
+"Seek couple counseling", "GGS","Spend more time together"];
+const congrats = ["Congrats, you're in a healthy relationship!", "I'm happy for you", "Must be nice","Hope you're happy!"];
 
 loveButton.addEventListener('click', (event) => {
     event.preventDefault();
