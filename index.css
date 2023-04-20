@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-color: rgb(255, 196, 230);  
     font-family: 'Hamilton', sans-serif;
-    /* cursor : url('resources/imgs/Normal\ Select.ani'), auto; */
+    cursor : url('resources/imgs/heartcursor.png'), auto; 
    
 }
 /* .my-cursor {
@@ -41,12 +41,15 @@ h1 {
 
 
 #calculateButton{
+    font-family:'Shorelines Script Bold', cursive;
+    color: aliceblue;
+    background-color: rgb(238, 118, 174);
     display: block;
     margin-top: 0%;
     margin: 0 auto;
 }
 #calculateButton:hover {
-    background-color: pink;
+    background-color: rgb(255, 44, 79);
 }
 .forms {
     text-align: center;
