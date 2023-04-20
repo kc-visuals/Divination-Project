@@ -12,16 +12,21 @@ body {
     background-size: cover;
     background-color: rgb(255, 196, 230);  
     font-family: 'Hamilton', sans-serif;
+    /* cursor : url('resources/imgs/Normal\ Select.ani'), auto; */
+   
 }
-
+/* .my-cursor {
+  cursor: url('resources/imgs/heartred.png'), auto;
+} */
 .bkg-gif{
     position: relative;
 }
-.my-element {
+/* .my-element {
     cursor: url('resources/imgs/heartred.png'), auto;
-  }
+  } */
 h1 {
     font-size: 100px;
+    color: aliceblue;
     padding-right:35%;
     padding-top:3%;
     padding-left:35%;
@@ -50,7 +55,21 @@ h1 {
 /* .bkg{
     position: relative;
 } */
+.hidden {
+    display: none;
+}
 
+#gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* adjust this value to match the height of your container */
+}
+
+#gif-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
 .img {
     max-width: 50%;
   }

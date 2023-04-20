@@ -1,10 +1,13 @@
 const apiKey = '93caa222c7msh540288fdd7507a1p183891jsnf79fb12f653b'; 
 const baseUrl = 'https://love-calculator.p.rapidapi.com/getPercentage?fname=';
 
+
 const result = document.getElementById("result-paragraph");
 const advice = document.getElementById("advice-paragraph");
 const loveButton = document.getElementById("calculateButton");
 const lcForm = document.getElementById("LCform")
+const loveGif = document.getElementById("love-gif");
+const sadLoveGif = document.getElementById("sad-love-gif");
 
 const goodAdvice = ["Work on your communication", "Learn how to compromise with your partner", 
 "Seek couple counseling", "GGS","Spend more time together"];
@@ -32,8 +35,14 @@ loveButton.addEventListener('click', (event) => {
         result.innerHTML = `Your percentage: ${data["percentage"]}. ${data['result']}`;
         if (data['percentage'] < 50) {
             advice.innerHTML = `${goodAdvice[Math.floor(Math.random() * goodAdvice.length)]}`;
+            sadLoveGif.src = "resources/imgs/sad milk mocha.gif";
+            sadLoveGif.classList.remove("hidden");
+            loveGif.classList.add("hidden");
         } else {
             advice.innerHTML = `${congrats[Math.floor(Math.random() * congrats.length)]}`;
+            loveGif.src = "resources/imgs/happy milk mocha.gif";
+            loveGif.classList.remove("hidden");
+            sadLoveGif.classList.add("hidden");
         }
 
 
