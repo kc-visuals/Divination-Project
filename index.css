@@ -11,7 +11,7 @@ body {
     background: url(resources/imgs/pink\ loop\ bkg.gif) no-repeat;
     background-size: cover;
     background-color: rgb(255, 196, 230);  
-    font-family: 'Hamilton', curivse;
+    font-family: 'Hamilton', cursive;
     cursor : url('resources/imgs/heartcursor.png'), auto; 
    
 }
