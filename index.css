@@ -11,7 +11,7 @@ body {
     background: url(resources/imgs/pink\ loop\ bkg.gif) no-repeat;
     background-size: cover;
     background-color: rgb(255, 196, 230);  
-    font-family: 'Hamilton', cursive;
+    
     cursor : url('resources/imgs/heartcursor.png'), auto; 
    
 }
@@ -25,6 +25,7 @@ body {
     cursor: url('resources/imgs/heartred.png'), auto;
   } */
 h1 {
+    font-family: 'Hamilton';
     font-size: 100px;
     color: aliceblue;
     padding-right:35%;
