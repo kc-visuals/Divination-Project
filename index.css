@@ -1,8 +1,15 @@
 @font-face {
     font-family: 'Hamilton';
     src: url('resources/fonts/Hamilton.ttf') format('truetype');
+    font-style: normal;
+ 
+}
+@font-face{
     font-family: "Baby Doll";
     src: url('resources/fonts/Baby\ Doll.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face{
     font-family: 'Shorelines Script Bold';
     src: url('resources/fonts/Shorelines\ Script\ Bold.otf')format('opentype');
 }
@@ -86,7 +93,7 @@ h1 {
 }
 
 #result {
-    font-family: "Baby Doll", cursive;
+    font-family: 'Baby Doll';
     font-size: 20px;
     /* padding-right:35%;
     padding-top:3%;
