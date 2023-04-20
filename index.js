@@ -10,8 +10,8 @@ const loveGif = document.getElementById("love-gif");
 const sadLoveGif = document.getElementById("sad-love-gif");
 
 const goodAdvice = ["Work on your communication", "Learn how to compromise with your partner", 
-"Seek couple counseling", "GGS","Spend more time together"];
-const congrats = ["Congrats, you're in a healthy relationship!", "I'm happy for you", "Must be nice","Hope you're happy!"];
+"Seek couple counseling", "GGS","Spend more time together","How'd you fuck that up??","Put more effort", ];
+const congrats = ["Congrats, you're in a healthy relationship!", "I'm happy for you", "Must be nice","Hope you're happy!","When's the wedding","SHEEESSHHHH","Cute"];
 
 loveButton.addEventListener('click', (event) => {
     event.preventDefault();
